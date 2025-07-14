@@ -5,7 +5,7 @@ public class Student {
     private int id;
     private String name;
     private Country country;
-    private ArrayList<Payment> payments;
+    private ArrayList<Payment> payments = new ArrayList<>();
 
     private Scanner scannerStr = new Scanner(System.in);
     private Scanner scannerInt = new Scanner(System.in);
